@@ -56,9 +56,8 @@ h1{
 #main .images{
     position: relative;
     border: 5px red solid;
-}
-#main .images img{
-    top: 20
+    margin-top: 0px;
+    padding: 0px;
 }
 #main .img{
     position: absolute;
