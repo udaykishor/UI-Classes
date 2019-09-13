@@ -53,6 +53,9 @@ h1{
     width: 52%;
     margin-left: 23%;
 }
+#main .section .images{
+    height: 558px;
+}
 #main .images{
     position: relative;
     border: 5px red solid;
