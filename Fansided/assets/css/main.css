@@ -73,13 +73,82 @@ p{
     padding: 22px 10px;
     font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
+    position: relative;
 }
 #main-navigation ul li a:hover{
     background-color: #042135;
 }
-#main{}
-#sidebar{}
-#footer{}
+#main-navigation ul li:hover .dropdown{
+    display: block;
+}
+#main-navigation .dropdown{
+    display: none;
+    width: 900px;
+    position: absolute;
+    background-color: #fff;
+    left: 23%;
+}
+#main-navigation .dropdown a{
+    color: #073759;
+    padding: 0px;
+    text-transform: none;
+}
+#main-navigation ul li .dropdown a:hover{
+    background-color: transparent;
+}
+#main-navigation>ul>li>a:after{
+    display: none;
+    content:"";
+    position: absolute;
+    border: 8px solid;
+    border-color: transparent transparent #fff;
+    left: 40%;
+    bottom: 0px;
+}
+#main-navigation ul li:hover a:after{
+    display: block;
+}
+#main-navigation .col-1{
+    width: 69%;
+    padding: 17px;
+}
+#main-navigation .col-2{
+    width: 24%;
+    padding: 11px;
+    background-color: #f3f3f3;
+}
+#main-navigaton .dropdown .image{
+    position: relative;
+}
+#main-navigation .dropdown .text{
+    position: absolute;
+    bottom: 0px;
+    width: 70%;
+    left: 10px;
+}
+#main-navigation .dropdown .text{
+    color: #fff;
+}
+#main-navigation .dropdown .col-1 ul{
+    list-style: square;
+    padding-left: 15px;
+}
+#main-navigation .dropdown .sub-col-1{
+    width: 43%;
+    margin-right: 23px;
+}
+#main-navigation .dropdown .sub-col-2{
+    width: 43%;
+    margin-left: 18px;
+}
+#main-navigation .dropdown li{
+    font-size: 15px;
+    margin-bottom: 16px;
+    padding-left: 15px;
+}
+#main-navigation .dropdown .col-2 li{
+    margin-bottom: 8px;
+}
 
 
 /* Specific Css */
