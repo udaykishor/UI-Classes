@@ -41,7 +41,7 @@ p{
 }
 .container{
     width: 1170px;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 
@@ -55,7 +55,7 @@ p{
     text-transform: uppercase;
 }
 #header .logo{
-    width: 10%;
+    width: 8%;
     padding-top: 20px;
     margin-right: 31px;
 }
@@ -66,7 +66,7 @@ p{
     font-weight: 400;
 }
 #main-navigation{
-    width: 76%;
+    width: 78%;
 }
 #header .links span{
     margin-left: 18px;
@@ -388,4 +388,31 @@ p{
     padding: 0px;
     position: absolute;
     top: -22px;
+}
+#footer .sub-footer {
+    background-color: #E5E5E5;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#footer .sub-footer-container {
+    margin-right: 350px;
+    margin-left: 350px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.footer-logo {
+    border-right: 2px solid;
+    border-color: #042135;
+    padding: 8px;
+    margin: 0px;
+    width: 16%;
+}
+#footer .widget {
+    padding: 3px 45px;
+}
+#footer .title {
+    display: inline-block;
+    margin: 0px;
+    width: 58%;
 }
